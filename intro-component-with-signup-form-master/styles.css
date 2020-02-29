@@ -1,0 +1,129 @@
+body{
+display: grid;
+grid-template-columns: 1fr 1fr;
+place-items: center;
+
+width: 100vw;
+height: 100vh;
+  margin: 0;
+  background-color:  hsl(0, 100%, 74%) ;
+  background-image: url("images/bg-intro-desktop.png");
+  background-size: cover;
+  font-family: 'Poppins' ;
+
+}
+
+.containerLeft{
+  padding-left: 200px;
+  color: white;
+  padding-right:60px;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 60px;
+}
+
+.containerRight{
+justify-self: start;
+}
+
+.purpleBox{
+  color: white;
+  background:  hsl(248, 32%, 49%);
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin-bottom: 30px;
+  width: 600px;
+  border-radius: 7px;
+  box-shadow: 0 10px 2px #C96161;
+}
+
+.purpleHeading{
+  margin: 0;
+}
+
+.whiteBox{
+  background: white;
+  padding: 30px;
+  border-radius: 7px;
+    box-shadow: 0 10px 2px #C96161;
+}
+
+input{
+  width:485px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 7px;
+  border: 1px solid hsl(246, 25%, 77%);
+  color: hsl(249, 10%, 26%);
+  font-weight: bolder;
+
+}
+
+.error{
+  border: 1px solid  hsl(0, 100%, 74%);
+  background-image: url("images/icon-error.svg");
+  background-position: 96%;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+input:active,input:focus{
+  outline: none;
+  border: 1px solid hsl(248, 32%, 49%) ;
+}
+
+.lbl{
+  visibility: hidden;
+  font-size: 0.7rem;
+  font-style: italic;
+  color:  hsl(0, 100%, 74%) ;
+  margin-left: 360px;
+}
+.errorbr{
+  display: none;
+}
+
+.lbl3{
+  margin-left: 320px;
+}
+
+button{
+  text-align: center;
+  width: 535px;
+  padding: 15px 0 15px 0;
+  border-radius: 7px;
+  border: none;
+  background: hsl(154, 59%, 51%);
+  font-family: 'Poppins' ;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #2BA16E;
+
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:active{
+  outline: none;
+  border: none;
+  transition: 1s;
+}
+button:focus{
+  outline: none;
+}
+.disclaimer{
+
+  text-align: center;
+  font-size: 0.8rem;
+  color: hsl(246, 25%, 77%);
+}
+
+span{
+  font-weight: 700;
+  color: hsl(0, 100%, 74%) ;
+}
